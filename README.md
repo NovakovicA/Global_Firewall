@@ -27,4 +27,5 @@ The prototype contains the following:
 The prototype company server has a detection software which detects (D)DoS attacks and sends reports to the main server, which bans the client for a period of time (10 days, hardcoded within NodeJS server) and it also detects bruteforce attacks and issues bans for the attacker (31 days). Company personnel can login on the website and view attack history on their infrastructure and there are admins which can add company accounts to the system.   
   
 Code is mostly in English language.  
+Prototype also includes a tool, which we didn't code, named LOIC - Low Orbit Ion Cannon which simulates DDoS attacks on company infrastructure.
 
